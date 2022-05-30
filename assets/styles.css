@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#06f0a2, #1d2261);
+    
+}
+
+
+/*background: linear-gradient(rgb(49, 47, 47) rgb(49, 0, 49)) ;*/
+
+.header-bar{
+    width: 100%;
+    border: 5px solid rgba(71, 71, 245, 0.568);
+    background-color: rgb(235, 94, 0);
+    position: fixed;
+}
+
+.nav-bar{
+    display: flex;
+    position: fixed;
+}
+
+.nav-items{
+    color: #032d55;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: right;
+  padding-left: 50px;
+  
+}
+
+nav ul{
+    background: transparent;
+}
+
+nav a{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: red;
+}
+
+.banner-img{
+    width: 100%;
+    
+}
+
+main{
+    display: flex;
+}
+
+#aboutme{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background: transparent;
+    text-decoration: none;
+}
+
+p{
+    background: transparent;
+    text-decoration: none;
+}
+
+h1, h2{
+    background: transparent;
+}
+
+.selfie{
+    width: 45%;
+    margin-top: 45px;
+}
+
+
+.sidebar{
+    flex-direction: column;
+    background-color: rgba(71, 71, 245, 0.568);
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#Projects {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+.Tiles {
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    background: black;
+    margin: 0 auto;
+    
+  }
+
+
+.Tiles p {
+    text-align: center;
+    color: rgb(60, 255, 0);
+}
+
+header{
+    width: 100%;
+    border: 10px solid rgba(71, 71, 245, 0.568);
+    background-color: rgb(235, 94, 0);
+}
+
+.Tiles:hover {
+    text-shadow: 0px 1px 3px rgba(8, 102, 21, 0.712), 0px 2px 3px rgba(8, 102, 21, 0.712),
+        0px 5px 2px rgba(8, 102, 21, 0.712), 0 4px 0 rgba(8, 102, 21, 0.712),
+        0px 7px 2px rgba(8, 102, 21, 0.712), 0 6px 0 rgba(8, 102, 21, 0.712),
+        0px 9px 2px rgba(8, 102, 21, 0.712), 0 8px 0 rgba(8, 102, 21, 0.712),
+        0px 11px 2px rgba(8, 102, 21, 0.712), 0 10px 0 rgba(8, 102, 21, 0.712),
+        0px 13px 2px rgba(8, 102, 21, 0.712), 0 12px 0 rgba(8, 102, 21, 0.712),
+        0px 25px 35px rgba(8, 102, 21, 0.712);
+    box-shadow: 10px 10px rgb(71, 71, 71)      
+}
+
+.Tiles:active {
+    transform: scale(0.95);
+    box-shadow: 4px 3px 24px 3px rgba(0, 0, 0, 0.24);
+    
+}
+
+
+.work {
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    background: #13293d;
+    color: rgb(60, 255, 0);
+  }
+
+.Project-Link{
+    width: 0;
+    text-align: center;
+    align-items: center;
+    color: rgb(60, 255, 0);
+    text-decoration: none;
+    margin-bottom: auto;
+}
+
+.Project-Link:active {
+    transform: scale(0.95);
+    box-shadow: 4px 3px 24px 3px rgba(0, 0, 0, 0.24);
+
+}
+
+.Tiles img {
+    width: 375px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(60, 255, 0)
+
+}
+
+/* Small smartphones - text  */
+@media screen and (min-width: 576px) {
+    section p {
+        text-transform: lowercase;
+    }
+  }
+
+
+
+/* Tablets - adds text underline */
+@media screen and (min-width: 992px) {
+    section p {
+        text-transform: capitalize;
+    }
+  }
+
+
+/* 4k screens - nav-items changes background color */
+@media screen and (min-width: 2560px) {
+    ul a {
+      background: blueviolet;
+    }
+  }
+
