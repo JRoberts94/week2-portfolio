@@ -41,11 +41,16 @@ nav a{
     box-sizing: border-box;
     text-decoration: none;
     color: red;
+    background: transparent;
+}
+.jumbo-div{
+width: 100%;
+max-height: 100em;
 }
 
 .banner-img{
     width: 100%;
-    
+    max-height: 500px;
 }
 
 main{
@@ -84,27 +89,55 @@ h1, h2{
 }
 
 #Projects {
-    flex: 4;
+    display: grid;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
   }
 
+.projectOne{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 5px;
+    background: black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+.projectOne img{
+    width: 100%;
+    height: 70%;
+}  
+.projectOne p{
+    text-align: center;
+    color: rgb(60, 255, 0);
+}
+
 .Tiles {
     position: relative;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     flex: 0 0 400px;
     background: black;
     margin: 0 auto;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
     
   }
-
+  .Tiles img {
+    width: 60%;
+    height: 60%;
+}
 
 .Tiles p {
     text-align: center;
@@ -136,11 +169,13 @@ header{
 
 
 .work {
-    padding: 40px;
+    padding: 10px;
     border-radius: 15px;
     text-align: center;
     background: #13293d;
     color: rgb(60, 255, 0);
+    width: 100%;
+    height: 10%;
   }
 
 .Project-Link{
@@ -195,7 +230,7 @@ footer a{
 /* 4k screens - nav-items changes background color */
 @media screen and (min-width: 2560px) {
     ul a {
-      background: blueviolet;
+      text-decoration: underline;
     }
   }
 
