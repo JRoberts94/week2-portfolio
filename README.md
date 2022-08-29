@@ -44,5 +44,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 * [Link to deployed Website](https://jroberts94.github.io/week2-portfolio/)
 * [Link to github Repository](https://github.com/JRoberts94/week2-portfolio)
-* ![Screenshot](./portfolio-screenshot.png)
+* ![Screenshot](./assets/images/week2screenshot.png)
 
